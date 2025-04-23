@@ -2,6 +2,7 @@
 
 
 body {
+    font-family: "Times New Roman", Times, serif;
     font-size: 1rem;
     background-color: rgb(176, 222, 255);
     color: #00396f;
@@ -87,7 +88,10 @@ video {
     display: inline-block;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 form {
+    font-family: "Raleway", sans-serif;
     margin-top: 20pt;
     display: grid;
     grid-template-columns: 1fr 1fr;
