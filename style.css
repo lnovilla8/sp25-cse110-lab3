@@ -1,5 +1,5 @@
 /*Style file*/
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     font-size: 1rem;
@@ -120,8 +120,6 @@ video {
     display: inline-block;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
 form textarea {
 
     font-family: "Raleway", sans-serif;
@@ -133,7 +131,7 @@ form textarea {
 }
 
 button:active {
-    background-color: color(srgb 0.2 0.4 0.7 / 1.0);
+    background-color: color(srgb 0.2 0.4 0.7);
     color: color-mix(in srgb, white 100%, black 0%);
     border: none;
     padding: 10px 30px;
