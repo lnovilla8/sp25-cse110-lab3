@@ -63,12 +63,14 @@ img {
     padding-left: 10px;
 }
 
-nav {
-    background-color: hsl(188, 100%, 73%);
-    padding: 1px;
-    margin-bottom: 10px;
-    display: flex;
-    position: sticky;
+@media (max-width : 600px) {
+    nav {
+        background-color: hsl(188, 100%, 73%);
+        padding: 1px;
+        margin-bottom: 10px;
+        display: flex;
+        position: sticky;
+    }
 }
 
 #hidden {
