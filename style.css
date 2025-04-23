@@ -1,5 +1,6 @@
 /*Style file*/
 
+
 body {
     font-size: 1rem;
     background-color: rgb(176, 222, 255);
@@ -64,9 +65,9 @@ img {
 
 nav {
     background-color: hsl(188, 100%, 73%);
-    padding: 10px;
-    margin-bottom: 20px;
-    display: inline-block;
+    padding: 1px;
+    margin-bottom: 10px;
+    display: flex;
     position: sticky;
 }
 
@@ -81,10 +82,15 @@ video {
     height: 225px;
     border: 2px solid black;
     border-radius: 8px;
+    display: inline-block;
 }
 
 form {
     margin-top: 20pt;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
 }
 
 button:active {
