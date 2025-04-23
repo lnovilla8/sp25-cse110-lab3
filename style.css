@@ -48,11 +48,11 @@ div p {
 }
 
 :root {
-    --primary-color: #1500fc;
+    --default-color: #1500fc;
 }
   
 h1, h3 {
-    color: var(--primary-color, blue); 
+    color: var(--default-color, blue); 
 }
 
 img {
