@@ -1,21 +1,44 @@
 /*Style file*/
 
+
 body {
+    font-size: 1rem;
     background-color: rgb(176, 222, 255);
     color: #00396f;
+    padding: 2em;
 }
 
 header {
+    line-height: 1.5;
     color: black;
     background-color: hsl(210, 100%, 73%);
-    
+}
+
+section {
+    width: 80%;
+}
+
+:root {
+    --primary-color: #1500fc;
+}
+  
+h3 {
+    color: var(--primary-color, blue); 
+}
+
+img {
+    width: 4.18in;
+}
+
+form {
+    margin-top: 20pt;
 }
 
 button {
     background-color: color(srgb 0.2 0.4 0.7 / 1.0);
     color: color-mix(in srgb, white 100%, black 0%);
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 10px 30px;
+    font-size: 14px;
     cursor: pointer;
 }
